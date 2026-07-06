@@ -1,0 +1,9 @@
+IT Security Policy
+
+Passwords must contain at least twelve characters.
+
+Multi-factor authentication is mandatory.
+
+Sensitive company data must never be shared using personal email accounts.
+
+VPN access is required for all remote connections.
