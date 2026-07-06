@@ -1,1 +1,71 @@
-# 6Jul_Enterprise-RAG-Knowledge-Assistant
+# Enterprise RAG Knowledge Assistant
+
+## Overview
+
+An enterprise Retrieval-Augmented Generation (RAG) platform that enables intelligent question answering over internal company documents using semantic search and Large Language Models.
+
+---
+
+## Features
+
+- PDF & Text document ingestion
+- Intelligent document chunking
+- Sentence Transformer embeddings
+- FAISS vector search
+- LLM-powered grounded responses
+- FastAPI REST APIs
+- Streamlit Dashboard
+- Automated Evaluation
+- GitHub Actions CI/CD
+
+---
+
+## Architecture
+
+Documents
+    ↓
+Ingestion
+    ↓
+Cleaning
+    ↓
+Chunking
+    ↓
+Embeddings
+    ↓
+FAISS Vector Store
+    ↓
+Similarity Search
+    ↓
+LLM
+    ↓
+Grounded Answer
+
+---
+
+## Tech Stack
+
+- Python
+- FastAPI
+- LangChain
+- OpenAI
+- Sentence Transformers
+- FAISS
+- Streamlit
+- GitHub Actions
+- PyPDF
+
+---
+
+## Folder Structure
+
+See repository tree for complete architecture.
+
+---
+
+## Future Enhancements
+
+- Azure AI Search
+- ChromaDB
+- Redis Cache
+- Azure OpenAI
+- Multi-document conversations
