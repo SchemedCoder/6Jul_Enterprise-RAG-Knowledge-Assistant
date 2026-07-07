@@ -69,3 +69,32 @@ See repository tree for complete architecture.
 - Redis Cache
 - Azure OpenAI
 - Multi-document conversations
+
+
+## Question Answering API
+
+The application exposes a FastAPI endpoint for semantic document search.
+
+### Endpoint
+
+POST `/ask`
+
+Example request:
+
+```json
+{
+  "question": "What is the leave policy?"
+}
+```
+
+Example response:
+
+```json
+{
+  "question": "What is the leave policy?",
+  "answer": "...",
+  "sources": [
+    "employee_handbook.txt"
+  ]
+}
+```
