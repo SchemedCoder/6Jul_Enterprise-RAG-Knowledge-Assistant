@@ -98,3 +98,14 @@ Example response:
   ]
 }
 ```
+## Features
+
+- Enterprise Retrieval-Augmented Generation (RAG)
+- Semantic document search using FAISS
+- SentenceTransformer embeddings
+- Recursive text chunking
+- FastAPI REST API
+- LangChain-powered retrieval pipeline
+- Modular architecture
+- Ready for Streamlit dashboard
+- Easily extensible to OpenAI or Azure OpenAI
