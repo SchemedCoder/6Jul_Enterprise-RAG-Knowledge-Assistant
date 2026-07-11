@@ -36,3 +36,19 @@ Thumbs.db
 
 # Temporary
 tmp/
+
+
+
+# Generated vector database
+faiss_index/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+
+# VS Code
+.vscode/
