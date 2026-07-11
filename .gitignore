@@ -1,54 +1,49 @@
+# ============================
 # Python
+# ============================
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Environment
+# ============================
+# Virtual Environments
+# ============================
 .env
-
-# Virtual Environment
 venv/
-.venv/
-
-# Vector Database
-faiss_index/
-
-# Logs
-logs/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# ML Artifacts
-*.pkl
-*.bin
-
-# Streamlit
-.streamlit/
-
-# Cache
-.cache/
-
-# Temporary
-tmp/
-
-
-
-# Generated vector database
-faiss_index/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Virtual environment
 .venv/
 env/
 
-# VS Code
+# ============================
+# IDEs
+# ============================
 .vscode/
+.idea/
+
+# ============================
+# Operating System Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Logs & Cache
+# ============================
+logs/
+.cache/
+tmp/
+
+# ============================
+# Vector Database (Generated)
+# ============================
+faiss_index/
+
+# ============================
+# ML Artifacts
+# ============================
+*.pkl
+*.bin
+
+# ============================
+# Streamlit
+# ============================
+.streamlit/
