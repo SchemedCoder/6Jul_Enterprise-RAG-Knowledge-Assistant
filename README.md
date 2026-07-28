@@ -1,4 +1,4 @@
-# Enterprise RAG Knowledge Assistant
+ Enterprise RAG Knowledge Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-REST_API-green)
@@ -8,7 +8,7 @@
 
 ---
 
-## Overview
+ Overview
 
 Enterprise Retrieval-Augmented Generation (RAG) platform that enables intelligent semantic search and grounded question answering over enterprise knowledge bases using FastAPI, LangChain, FAISS, and Sentence Transformers.
 
